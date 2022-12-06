@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'MonteCarlo', cursive;
+  font-size: 6.25rem;
+  margin-bottom: 0;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Philosopher', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  width: 5%;
+  border-style: dotted none none;
+  border-width: 8px;
+  border-color: #D6E4E5;
+}
+
+.top-container {
+  background-color: #EFF5F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.profile {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.p1 {
+  line-height: 2;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 200px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.frontend-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+
+.backend-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin-top: 100px;
+}
+
+.p2 {
+  margin-bottom: 70px;
+}
+
+.btn {
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-image: linear-gradient(#11cdd4, #11999e);
+}
+
+.btn:hover {
+  background-image: linear-gradient(#9CFF2E, #38E54D);
+  }
+
+.bottom-container {
+  margin-top: 100px;
+  background-color: #66bfbf;
+  height: 100px;
+  padding-top: 50px;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 0 30px 0 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-link:hover {
+  color: #eaf6f6;
+}
+
+#since {
+  font-family: 'Philosopher', sans-serif;
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
